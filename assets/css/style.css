@@ -1,0 +1,136 @@
+* {
+padding: 0;
+margin: 0;
+}
+h1 {
+    color: rgb(3, 3, 3);
+    margin: 30px 0;
+    font-size: 40px;
+    text-align: left;
+}
+h3 {
+    color: purple;
+}
+body {
+    display: flex;                  
+    justify-content: center;
+    background-color: #F3E5D8;
+}
+
+main {
+    background-color: #fff;
+    padding: 50px;
+    width: 650px;
+    border-radius: 30px;
+    margin: 150px 0px;
+    line-height: 1.4em;
+    width: 1500px;
+}
+@font-face {
+    font-family: "young-serif";
+    src: url("../fonts/young-serif/YoungSerif-Regular.ttf") format("truetype");
+    font-style: normal;
+}
+h1, h2 {
+    font-family: "young-serif";
+    font-weight: 500;
+}
+@font-face {
+    font-family: "outfit";
+    src: url(../fonts/outfit/Outfit-VariableFont_wght.ttf);
+    font-style: normal;
+}
+p, ul, ol, h3 {
+    font-family: "outfit";
+}
+#properties {
+    list-style: none;
+}
+#prepa ul {
+    list-style-position: outside;
+}
+#ingredients li, #instructions li {
+    padding-left: 1em;
+    margin-left: 1.5em;
+}
+img {
+    width: 100%;
+    border-radius: 20px;
+}
+#prepa {
+    /* background-color: #FFF8FC; */
+    background-color: #FFF8FC;
+    padding: 25px 0;
+    margin: 25px 0 25px 20px;
+}
+#prepa h3 {
+    margin: 5px;
+}
+#prepa li::marker {
+    color: purple; 
+    font-size: 0.7em;
+}
+#prepa li {
+    padding-left: 20px;
+    margin-left: 25px;
+}
+h2 {
+    color: #936455;
+    margin: 25px 0;
+}
+ol li::marker {
+    font-weight: 700;
+}
+ol li::marker, #ingredients li::marker {
+    color: #936455;
+}
+#instructions {
+    border-bottom: 1px solid lightgray;
+    border-top: 1px solid lightgray;
+    margin-top: 25px;
+    padding-bottom: 25px;
+}
+#ingredients li::marker {
+    font-size: 0.7em;
+    padding-right: 5px;
+}
+li {
+    padding: 5px 0;
+}
+#nutrition h2 {
+    padding-top: 5px;
+}
+#properties div {
+    width: 50%;
+}
+#properties li {
+    display: flex;
+    flex-direction: row;
+    text-indent: 30px;
+    padding: 15px 0;
+}
+#calories, #carbs, #protein {
+    border-bottom: 1px solid lightgray;
+}
+#nutrition p {
+    margin: 25px 0;
+}
+.color {
+    color: #936455;
+    font-weight: 700;
+}
+@media (max-width:750px) {
+    main {
+        width: 100%;
+        border-radius: 0;
+        padding: 0;
+        margin: 0;
+    }
+    img {
+        width: 100%;
+        border-radius: 0;
+    }
+    #content {
+        padding: 0 50px 50px 50px;
+    }
+}
